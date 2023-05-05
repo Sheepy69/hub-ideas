@@ -1,0 +1,31 @@
+{
+    "name": "hub-ideas/back",
+    "description": "Back app",
+    "autoload": {
+        "psr-4": {
+            "HubIdeas\\Back\\": "src/",
+            "HubIdeas\\Back\\Controller\\": "src/Controller",
+            "HubIdeas\\Back\\Controller\\Auth\\": "src/Controller/Auth",
+            "HubIdeas\\Back\\Model\\": "src/Model",
+            "HubIdeas\\Back\\Model\\Database": "src/Model/Database",
+            "HubIdeas\\Back\\Model\\Database\\User\\": "src/Model/Database/User",
+            "HubIdeas\\Back\\Model\\Config": "src/Model/Config",
+            "HubIdeas\\Back\\Middleware\\": "src/Middleware"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Moutlen",
+            "email": "thomas.moutlen@ph2m.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^1",
+        "sapphirecat/slim4-http-interop-adapter": "^1.1",
+        "laminas/laminas-diactoros": "^3.0"
+    }
+}

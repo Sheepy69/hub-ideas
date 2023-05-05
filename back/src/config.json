@@ -1,0 +1,7 @@
+{
+  "host" : "localhost",
+  "username" : "root",
+  "password" : "78389214",
+  "default_admin_username" : 'root',
+  "default_admin_password" : 'root',
+}
